@@ -1,0 +1,10 @@
+{"scripts": {
+    "start": "webpack-dev-server",
+    "build": "rm -rf dist && npx webpack ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "4",
+    "webpack-cli": "3"
+  }
+}
